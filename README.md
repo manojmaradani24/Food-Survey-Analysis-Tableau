@@ -91,7 +91,7 @@ Watch the complete project demonstration here:
 
 **YouTube**
 
-https://youtu.be/tIEdgBNUNto?si=vqgS7un1OscuLcdh
+https://youtu.be/YYf-YtVspM8?si=KP91ZxHaFOHUOf38
 
 ---
 
