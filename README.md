@@ -51,6 +51,10 @@ This project was developed as part of the **Skill Wallet Group Project**. It ana
 - 🎓 GPA Distribution
 - ⚖️ Weight vs GPA
 - 📈 GPA by Gender
+- 🥗 Health Category Analysis
+- 💊 Vitamins Consumption Analysis
+- 🍔 Comfort Food Reasons
+- 🏋️ Weight vs Exercise Frequency
 
 ---
 
@@ -62,21 +66,32 @@ An interactive Tableau Dashboard presenting key insights from the College Food C
 
 # 📖 Tableau Story
 
-A Tableau Story was created to explain the dashboard and findings step-by-step.
+A Tableau Story was created to explain the dashboard and findings step-by-step, enabling users to understand the analytical insights through a guided narrative.
 
 ---
 
 # 🌐 Flask Web Integration
 
-The Tableau Dashboard and Story are integrated into a Flask web application using the BootstrapMade Arsha template.
+The Tableau Dashboard and Story are integrated into a Flask web application using the BootstrapMade **Arsha** template.
 
-Features include:
+### Features
 
-- Responsive UI
-- Bootstrap Template
-- Flask Integration
-- Interactive Tableau Dashboard
-- GitHub Version Control
+- ✅ Responsive UI
+- ✅ Bootstrap Arsha Template
+- ✅ Flask Integration
+- ✅ Interactive Tableau Dashboard
+- ✅ Tableau Story Integration
+- ✅ GitHub Version Control
+
+---
+
+# 🎥 Demo Video
+
+Watch the complete project demonstration here:
+
+**YouTube**
+
+https://youtu.be/tIEdgBNUNto?si=vqgS7un1OscuLcdh
 
 ---
 
@@ -85,6 +100,20 @@ Features include:
 ### Tableau Public
 
 https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis/Story1?publish=yes
+
+### Flask Web Application
+
+Run locally:
+
+```bash
+python app.py
+```
+
+Open your browser:
+
+```
+http://127.0.0.1:5000
+```
 
 ---
 
@@ -102,13 +131,13 @@ https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau
 git clone https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau.git
 ```
 
-## 2️⃣ Navigate to Project
+## 2️⃣ Navigate to Project Folder
 
 ```bash
 cd Food-Survey-Analysis-Tableau/flask_app
 ```
 
-## 3️⃣ Install Requirements
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -196,37 +225,37 @@ git push origin main
 
 # 👥 Team Members
 
-## Team Lead
+## 👨‍💼 Team Lead
 
 **Manoj Maradani**
 
-Email: manojmaradani24@gmail.com
+📧 manojmaradani24@gmail.com
 
 ---
 
-## Team Members
+## 👨‍💻 Team Members
 
 **Edupuganti Siva Raj Kumar**
 
-Email: 23pa1a0563@vishnu.edu.in
+📧 23pa1a0563@vishnu.edu.in
 
 ---
 
 **Kokkiligadda Sasidhar**
 
-Email: 23pa1a05b2@vishnu.edu.in
+📧 23pa1a05b2@vishnu.edu.in
 
 ---
 
 **Pechetty Sathvik**
 
-Email: 23pa1a05j5@vishnu.edu.in
+📧 23pa1a05j5@vishnu.edu.in
 
 ---
 
 **Attuluri Sai Leela Sree**
 
-Email: 24pa5a0503@vishnu.edu.in
+📧 24pa5a0503@vishnu.edu.in
 
 ---
 
@@ -254,11 +283,18 @@ This project demonstrates practical skills in:
 - Analyzed students' breakfast habits.
 - Compared GPA across gender.
 - Explored weight and GPA relationships.
-- Visualized dietary behavior patterns.
+- Identified comfort food consumption patterns.
+- Examined health categories and dietary preferences.
+- Visualized nutritional and lifestyle behavior.
 - Created an interactive dashboard and story for better decision-making.
+
+---
+
 
 ---
 
 # 🙏 Acknowledgements
 
 This project was completed as part of the **Skill Wallet Group Project** using **Tableau Public**, **Flask**, **Bootstrap**, and **GitHub** for collaborative learning and project development.
+
+Special thanks to our faculty, teammates, and the Skill Wallet platform for their continuous guidance and support.
