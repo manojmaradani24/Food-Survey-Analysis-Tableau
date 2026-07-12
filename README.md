@@ -91,7 +91,7 @@ Watch the complete project demonstration here:
 
 **YouTube**
 
-https://youtu.be/YYf-YtVspM8?si=KP91ZxHaFOHUOf38
+ 
 
 ---
 
@@ -99,7 +99,7 @@ https://youtu.be/YYf-YtVspM8?si=KP91ZxHaFOHUOf38
 
 ### Tableau Public
 
-https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis/Story1?publish=yes
+https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis_Project/Story1?publish=yes
 
 ### Flask Web Application
 
