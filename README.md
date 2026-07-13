@@ -91,7 +91,79 @@ Food-Survey-Analysis-Tableau
 ├── Food_Survey_Analysis.twb
 └── README.md
 ```
+## Running the Project
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd Food-Survey-Analysis-Tableau
+```
+
+### 3. Navigate to the Source Folder
+
+```bash
+cd src
+```
+
+### 4. (Optional) Create a Virtual Environment
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 5. Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+> If `requirements.txt` is not available:
+
+```bash
+pip install flask pandas numpy
+```
+
+### 6. Run the Flask Application
+
+```bash
+python app.py
+```
+
+or
+
+```bash
+python3 app.py
+```
+
+### 7. Open in Browser
+
+```
+http://127.0.0.1:5000
+```
+
+or
+
+```
+http://localhost:5000
+```
+
+The application will start the Flask server and display the embedded Tableau Dashboard in your browser.
 ---
 
 ## Dashboard Features
@@ -192,7 +264,7 @@ https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau
 
 Demo Link:
 
-(Add YouTube Demo Link Here)
+https://youtu.be/0J3N4KYNS9U?si=FUKiJytSfNXeYg-v
 
 ---
 
