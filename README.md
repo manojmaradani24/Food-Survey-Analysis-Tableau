@@ -1,300 +1,231 @@
-# 🍽️ Food Survey Analysis using Tableau
+# Food Survey Analysis using Tableau
 
-## 📌 Project Title
+## Project Title
 
-**Comprehensive Analysis and Dietary Strategies with Tableau: A College Food Choices Case Study**
-
----
-
-# 📖 Project Overview
-
-This project was developed as part of the **Skill Wallet Group Project**. It analyzes the dietary habits, food preferences, and lifestyle choices of college students using Tableau. The survey dataset is transformed into interactive dashboards and stories to uncover meaningful trends, visualize patterns, and provide insights into nutrition and student wellness.
+Comprehensive Analysis and Dietary Strategies with Tableau: A College Food Choices Case Study
 
 ---
 
-# 🎯 Objectives
+## Project Overview
 
-- Analyze college students' food habits.
-- Identify dietary and lifestyle patterns.
-- Create interactive Tableau dashboards.
-- Develop a Tableau Story explaining key insights.
-- Present meaningful visualizations for better understanding.
+This project presents a comprehensive analysis of college students' food preferences, dietary habits, lifestyle choices, and academic performance using Tableau. The objective is to transform raw survey data into interactive visualizations that provide meaningful insights for better understanding student food behavior and health patterns.
+
+The project demonstrates the use of Business Intelligence techniques to perform data exploration, visualization, and storytelling through an interactive Tableau dashboard.
 
 ---
 
-# 🛠️ Technologies Used
+## Problem Statement
 
+Understanding students' eating habits is essential for promoting healthy lifestyles and improving academic performance. Educational institutions often collect survey data but struggle to derive actionable insights. This project addresses that challenge by analyzing food survey data and presenting key findings through interactive dashboards.
+
+---
+
+## Objectives
+
+- Analyze students' food consumption patterns.
+- Study the relationship between GPA and lifestyle factors.
+- Identify favorite cuisines among students.
+- Compare food preferences based on gender.
+- Evaluate healthy eating behaviors.
+- Develop an interactive Tableau dashboard for data-driven decision making.
+
+---
+
+## Technologies Used
+
+- Tableau Desktop
 - Tableau Public
-- Flask
-- HTML5
-- CSS3
-- Bootstrap (Arsha Template)
 - Python
+- Pandas
+- NumPy
+- Flask
+- HTML
+- CSS
+- JavaScript
 - Git
 - GitHub
-- CSV Dataset
-- Data Visualization
 
 ---
 
-# 📂 Dataset
+## Dataset
 
-- **food_coded.csv** – Main survey dataset
-- **codebook_food.docx** – Dataset documentation (Codebook)
+The dataset contains survey responses collected from college students and includes attributes such as:
 
----
-
-# 📊 Visualizations
-
-- 🍳 Breakfast Analysis
-- 👥 Gender Distribution
-- 🎓 GPA Distribution
-- ⚖️ Weight vs GPA
-- 📈 GPA by Gender
-- 🥗 Health Category Analysis
-- 💊 Vitamins Consumption Analysis
-- 🍔 Comfort Food Reasons
-- 🏋️ Weight vs Exercise Frequency
+- Gender
+- GPA
+- Weight
+- Favorite Cuisine
+- Food Preferences
+- Healthy Feeling
+- Eating Habits
+- Lifestyle Information
 
 ---
 
-# 📈 Dashboard
-
-An interactive Tableau Dashboard presenting key insights from the College Food Choices dataset.
-
----
-
-# 📖 Tableau Story
-
-A Tableau Story was created to explain the dashboard and findings step-by-step, enabling users to understand the analytical insights through a guided narrative.
-
----
-
-# 🌐 Flask Web Integration
-
-The Tableau Dashboard and Story are integrated into a Flask web application using the BootstrapMade **Arsha** template.
-
-### Features
-
-- ✅ Responsive UI
-- ✅ Bootstrap Arsha Template
-- ✅ Flask Integration
-- ✅ Interactive Tableau Dashboard
-- ✅ Tableau Story Integration
-- ✅ GitHub Version Control
-
----
-
-# 🎥 Demo Video
-
-Watch the complete project demonstration here:
-
-**YouTube**
-
- 
-
----
-
-# 🚀 Live Demo
-
-### Tableau Public
-
-https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis_Project/Story1?publish=yes
-
-### Flask Web Application
-
-Run locally:
-
-```bash
-python app.py
-```
-
-Open your browser:
+## Project Structure
 
 ```
-http://127.0.0.1:5000
+Food-Survey-Analysis-Tableau
+│
+├── data/
+│   └── food_coded.csv
+│
+├── src/
+│   ├── app.py
+│   ├── templates/
+│   └── static/
+│
+├── Documentation/
+│   └── Project Documentation
+│
+├── screenshot/
+│
+├── template/
+│   ├── Requirement Analysis
+│   ├── Project Planning Phase
+│   ├── Project Design Phase
+│   ├── Project Development Phase
+│   ├── Performance Testing Phase
+│   └── Ideation Phase
+│
+├── Food_Survey_Analysis.twb
+└── README.md
 ```
 
 ---
 
-# 💻 GitHub Repository
+## Dashboard Features
+
+The Tableau dashboard includes the following visualizations:
+
+- Weight vs GPA Analysis
+- GPA Distribution
+- GPA Distribution by Gender
+- Favorite Cuisine Distribution
+- Gender Distribution
+- Healthy Feeling by Gender
+- Indian Food Preference by Gender
+- Total Students Analysis
+
+---
+
+## Methodology
+
+1. Data Collection
+2. Data Cleaning
+3. Data Preprocessing
+4. Exploratory Data Analysis
+5. Dashboard Development using Tableau
+6. Story Creation
+7. Web Integration using Flask
+8. Documentation
+9. Deployment
+
+---
+
+## Key Insights
+
+- Food preferences vary significantly among students.
+- Gender influences dietary choices and eating habits.
+- GPA shows noticeable patterns with certain lifestyle factors.
+- Interactive dashboards simplify complex data interpretation.
+- Visual analytics support better decision-making.
+
+---
+
+## Results
+
+The project successfully converts survey data into an interactive Tableau dashboard capable of presenting meaningful insights through charts, graphs, and visual stories. The dashboard improves data accessibility and enables efficient exploration of student food habits.
+
+---
+
+## Future Enhancements
+
+- Real-time data integration
+- Predictive analytics using Machine Learning
+- Mobile-responsive dashboard
+- Cloud deployment
+- AI-based recommendation system
+- Advanced statistical analysis
+
+---
+
+## Documentation
+
+Complete project documentation is available in the `Documentation` folder.
+
+---
+
+## Tableau Public Profile
+
+Profile:
+
+https://public.tableau.com/app/profile/manoj.maradani
+
+---
+
+## Tableau Dashboard
+
+Interactive Dashboard:
+
+https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis_Project/Story1
+
+---
+
+## Tableau Story
+
+Story:
+
+https://public.tableau.com/app/profile/manoj.maradani/viz/Food_Survey_Analysis_Project/Story1
+
+---
+
+## GitHub Repository
+
+Repository:
 
 https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau
 
 ---
 
-# ⚙️ Project Setup
+## Demo Video
 
-## 1️⃣ Clone Repository
+Demo Link:
 
-```bash
-git clone https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau.git
-```
-
-## 2️⃣ Navigate to Project Folder
-
-```bash
-cd Food-Survey-Analysis-Tableau/flask_app
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## 4️⃣ Run Flask Application
-
-```bash
-python app.py
-```
-
-## 5️⃣ Open Browser
-
-```
-http://127.0.0.1:5000
-```
+(Add YouTube Demo Link Here)
 
 ---
 
-# 📁 Project Structure
+---
 
-```text
-Food-Survey-Analysis-Tableau/
-│
-├── Food_Survey_Analysis.twb
-├── food_coded.csv
-├── codebook_food.docx
-├── README.md
-│
-├── flask_app/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── templates/
-│   │   └── index.html
-│   └── static/
-│       └── assets/
-│           ├── css/
-│           ├── img/
-│           ├── js/
-│           ├── vendor/
-│           └── scss/
-```
+## Author
+
+### Team Members
+
+**Manoj Maradani**  
+Bachelor of Technology (Computer Science and Engineering)  
+Email: manojmaradani24@gmail.com
 
 ---
 
-# 📌 Git Commands
-
-### Clone Repository
-
-```bash
-git clone https://github.com/manojmaradani24/Food-Survey-Analysis-Tableau.git
-```
-
-### Check Status
-
-```bash
-git status
-```
-
-### Pull Latest Changes
-
-```bash
-git pull origin main
-```
-
-### Add Files
-
-```bash
-git add .
-```
-
-### Commit Changes
-
-```bash
-git commit -m "Project Updated"
-```
-
-### Push Changes
-
-```bash
-git push origin main
-```
+**Edupuganti Siva Raj Kumar**  
+Bachelor of Technology (Computer Science and Engineering)  
+Email: 23pa1a0563@vishnu.edu.in
 
 ---
 
-# 👥 Team Members
-
-## 👨‍💼 Team Lead
-
-**Manoj Maradani**
-
-📧 manojmaradani24@gmail.com
+**Kokkiligadda Sasidhar**  
+Bachelor of Technology (Computer Science and Engineering)  
+Email: 23pa1a05b2@vishnu.edu.in
 
 ---
 
-## 👨‍💻 Team Members
-
-**Edupuganti Siva Raj Kumar**
-
-📧 23pa1a0563@vishnu.edu.in
+**Pechetty Sathvik**  
+Bachelor of Technology (Computer Science and Engineering)  
+Email: 23pa1a05j5@vishnu.edu.in
 
 ---
 
-**Kokkiligadda Sasidhar**
-
-📧 23pa1a05b2@vishnu.edu.in
-
----
-
-**Pechetty Sathvik**
-
-📧 23pa1a05j5@vishnu.edu.in
-
----
-
-**Attuluri Sai Leela Sree**
-
-📧 24pa5a0503@vishnu.edu.in
-
----
-
-# ⭐ Project Outcomes
-
-This project demonstrates practical skills in:
-
-- ✅ Data Collection
-- ✅ Data Preparation
-- ✅ Data Cleaning
-- ✅ Data Visualization
-- ✅ Tableau Dashboard Development
-- ✅ Tableau Story Creation
-- ✅ Tableau Public Publishing
-- ✅ Flask Web Integration
-- ✅ Bootstrap UI Development
-- ✅ Git & GitHub Version Control
-- ✅ Team Collaboration
-- ✅ Data Analysis & Reporting
-
----
-
-# 📌 Key Insights
-
-- Analyzed students' breakfast habits.
-- Compared GPA across gender.
-- Explored weight and GPA relationships.
-- Identified comfort food consumption patterns.
-- Examined health categories and dietary preferences.
-- Visualized nutritional and lifestyle behavior.
-- Created an interactive dashboard and story for better decision-making.
-
----
-
-
----
-
-# 🙏 Acknowledgements
-
-This project was completed as part of the **Skill Wallet Group Project** using **Tableau Public**, **Flask**, **Bootstrap**, and **GitHub** for collaborative learning and project development.
-
-Special thanks to our faculty, teammates, and the Skill Wallet platform for their continuous guidance and support.
+**Attuluri Sai Leela Sree**  
+Bachelor of Technology (Computer Science and Engineering)  
+Email: 24pa5a0503@vishnu.edu.in
